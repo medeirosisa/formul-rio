@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro do produto</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Cadastro do produto</legend>
+            <label for>Produto</label>
+            <input type="text" id="produto" name="meproduto" placeholder="digite seu o nome do seu produto">
+            <br> <hr>
+            <label for>data de cadastro</label>
+            <input type="date" id="idatcadst" name="ddatcadst">
+            <br> <hr>
+            <label>Categoria:</label>
+            <select name="bboks" id="llivros">
+                <option value="l">livros</option>
+                <option value="b"selected>book box</option>
+                <option value="m">marca páginas</option>
+            </select>
+            <br> <br>
+            <label for="number">peso</label>
+            <br>
+            <input type="number" id="number" name="nnumber">
+            <br> <br>
+            <label>Situação</label>
+            <input type="radio" name="rtipo"    id="itpusurio " value="u">
+            <label for="itpusuario">usado</label>
+            <input type="radio" name="rtipo" id="itpadmin" value="A">
+            <label for="itpadmin">Administrador</label>
+            <br> <br>
+            <label for="idescrição">Descrição :</label>
+        <br>
+        <textarea name="txvoce" id="ivoce" cols="30" rows="10"></textarea> 
+        <br>
+          <label for="vol"volume (between 0 and 10):></label>
+          <input type="range"id="vol" name="vol" min="0" max="10">
+          <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+            
+
+        </fieldset>
+    </form>
+</body>
+</html>
